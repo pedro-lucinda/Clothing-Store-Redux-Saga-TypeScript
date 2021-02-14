@@ -1,1 +1,1 @@
-# Redux-RocketSeat
+# Redux + Redux-Saga

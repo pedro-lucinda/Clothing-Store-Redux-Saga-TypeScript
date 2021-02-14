@@ -1,10 +1,11 @@
 import { Reducer } from 'redux'
 import produce from 'immer'
-import {ICartState} from './types'
+import {ActionTypes, ICartState} from './types'
 // immer => produz novo estado a partir de um estado anterior
 
 const INITIAL_STATE : ICartState = {
-	items: []
+	items: [],
+	failedStockCheck: [],
 }
 
 export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) =>{
@@ -12,22 +13,27 @@ export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) =>{
 // draft e o estado antigo entao podemos manipular normalmente
 	return	produce(state, draft => {
 		switch (action.type) {
-			case "ADD_PRODUCT_TO_CART": {
+			case ActionTypes.addProductToCartSuccess: {
 				const {product} = action.payload
 
 				const productInCartIndex = draft.items.findIndex(item => item.product.id === product.id)
 
-				if(productInCartIndex >= 0){
-					draft.items[productInCartIndex].quantity += 1
-				}else {
-					draft.items.push({
-						product, 
-						quantity: 1,
-					})
-				}
+					if(productInCartIndex >= 0){
+						draft.items[productInCartIndex].quantity += 1
+					}else {
+						draft.items.push({
+							product, 
+							quantity: 1,
+						})
+					}
 
 				}
 				break;
+
+				case ActionTypes.addProductToCartFailure: {
+					draft.failedStockCheck.push(action.payload.productId)
+					break;
+				}
 		
 			default: {
 				return draft
