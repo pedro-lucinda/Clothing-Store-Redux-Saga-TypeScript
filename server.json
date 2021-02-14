@@ -3,18 +3,43 @@
   "products": [
     {
       "id": 1,
-      "title": "Casaco maneiro",
+      "title": "Casaco",
       "price": 290.90
     },
     {
       "id": 2,
-      "title": "Óculos barato",
-      "price": 20.90
+      "title": "Óculos",
+      "price": 120.90
     },
     {
       "id": 3,
-      "title": "Tênis da moda",
+      "title": "Tênis",
       "price": 500.00
+    },
+    {
+      "id": 4,
+      "title": "Camiseta A",
+      "price": 290.90
+    },
+    {
+      "id": 5,
+      "title": "Camiseta B",
+      "price": 290.90
+    },
+    {
+      "id": 6,
+      "title": "Camisata C",
+      "price": 290.90
+    },
+    {
+      "id": 7,
+      "title": "Camisata D",
+      "price": 290.90
+    },
+    {
+      "id": 8,
+      "title": "Camisata E",
+      "price": 290.90
     }
   ],
   "stock": [
@@ -29,6 +54,26 @@
     {
       "id": 3,
       "quantity": 1
+    },
+    {
+      "id": 4,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "quantity": 5
+    },
+    {
+      "id": 6,
+      "quantity": 5
+    },
+    {
+      "id": 7,
+      "quantity": 5
+    },
+    {
+      "id": 8,
+      "quantity": 5
     }
   ]
 }
