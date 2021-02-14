@@ -14,6 +14,8 @@ const Catalog: React.FC = () => {
       .catch((error) => console.log(error));
   }, []);
 
+  console.log(catalog)
+
   return (
     <div>
       <h1> Catalog </h1>
