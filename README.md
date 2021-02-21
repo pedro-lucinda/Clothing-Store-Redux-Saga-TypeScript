@@ -17,11 +17,11 @@
 - TypeScript
 - Redux
 - Redux-Saga
-- redux-devtools-extension
-- immer
-- styled-components
+- Redux-devtools-extension
+- Immer
+- Styled-components
 - Json-server
-- axios
+- Axios
 
 
 ### Images
