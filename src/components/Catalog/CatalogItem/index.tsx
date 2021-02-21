@@ -29,7 +29,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
       </button>
       <br />
       <br />
-      {hasFailedStockCheck && <span> Produto Esgotado </span>}
+      {hasFailedStockCheck && <span> Out of stock </span>}
     </CItem>
   );
 };
