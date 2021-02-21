@@ -5,6 +5,7 @@ import Cart from "../Cart";
 import CatalogItem from "./CatalogItem";
 import Navbar from "../Navbar";
 import { CCatalog } from "./style";
+import Footer from "../Footer";
 
 const Catalog: React.FC = () => {
   const [catalog, setCatalog] = useState<IProduct[]>([]);
@@ -35,6 +36,7 @@ const Catalog: React.FC = () => {
           <Cart />
         </aside>
       </CCatalog>
+      <Footer />
     </>
   );
 };
