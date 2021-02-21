@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import api from "../../services/api";
 import { IProduct } from "../../store/modules/cart/types";
 import Cart from "../Cart";
-import CatalogItem from "../CatalogItem";
+import CatalogItem from "./CatalogItem";
 import Navbar from "../Navbar";
 import { CCatalog } from "./style";
 

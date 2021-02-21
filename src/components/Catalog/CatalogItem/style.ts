@@ -24,8 +24,8 @@ export const CItem = styled.article`
   }
 
   span{
-  background-color: #fff;
-  padding: 1rem;
+    background-color: #fff;
+    padding: 1rem;
 
     color: red;
     font-size: 1.4rem;
@@ -33,7 +33,7 @@ export const CItem = styled.article`
     font-family: "Lexend Mega", serif;
 
     position: relative;
-    bottom: 15rem;
+    bottom: 18rem;
   }
   
 `;
