@@ -3,31 +3,31 @@
     {
       "id":1,
       "url": "https://a2.vnda.com.br/650x/insiderstore/2021/01/14/18_1_9_980_tsptechtshirt675.jpg?1610659949",
-      "title": "Camiseta A",
+      "title": "Basic Black T-Shirt",
       "price": 29.90
     },
     {
       "id": 2,
       "url":"https://a4.vnda.com.br/650x/insiderstore/2020/10/03/14_10_7_786_undsundershirtsimples464.jpg?1610661386",
-      "title": "Camiseta B",
+      "title": "Basic Beige T-Shirt",
       "price": 29.90
     },
     {
       "id": 3,
       "url":"https://hermosocompadre2.vteximg.com.br/arquivos/ids/214332-520-650/T-SHIRT-HENLEY-PRETA-0183-P.jpg?v=637304464134270000 ",
-      "title": "Camisata C",
+      "title": "Black Buttons T-Shirt",
       "price": 29.90
     },
     {
       "id": 4,
       "url":"https://images.asos-media.com/products/asos-design-oversized-t-shirt-with-crew-neck-in-black/12873572-1-black?$XXL$&wid=513&fit=constrain ",
-      "title": "Camisata D",
+      "title": "Oversize Black T-Shirt",
       "price": 29.90
     },
     {
       "id": 5,
       "url":" https://alexnld.com/wp-content/uploads/2020/05/4f23a6ba-d1f9-4151-be19-ba3e2c64c683-500x500.jpg",
-      "title": "Camisata E",
+      "title": "Basic Blue T-Shirt",
       "price": 29.90
     }
   ],

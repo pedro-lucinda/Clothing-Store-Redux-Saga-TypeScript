@@ -20,9 +20,8 @@ export const CItem = styled.article`
 
   button {
     margin-top: 1rem;
+    padding: 1rem;
   }
-
-
 
   span{
   background-color: #fff;

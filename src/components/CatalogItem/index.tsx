@@ -25,7 +25,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
         type="button"
         onClick={() => dispatch(addProductToCartRequest(product))}
       >
-        Comprar
+        Add to Cart
       </button>
       <br />
       <br />

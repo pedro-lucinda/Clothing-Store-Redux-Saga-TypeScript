@@ -17,6 +17,7 @@ const Cart: React.FC = () => {
           price={(item.quantity * item.product.price).toFixed(2)}
         />
       ))}
+      {cart.length === 0 && <h3> Cart is empty </h3>}
     </CCart>
   );
 };
