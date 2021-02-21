@@ -1,45 +1,34 @@
-
 {
   "products": [
     {
-      "id": 1,
-      "title": "Casaco",
-      "price": 290.90
+      "id":1,
+      "url": "https://a2.vnda.com.br/650x/insiderstore/2021/01/14/18_1_9_980_tsptechtshirt675.jpg?1610659949",
+      "title": "Camiseta A",
+      "price": 29.90
     },
     {
       "id": 2,
-      "title": "Óculos",
-      "price": 120.90
+      "url":"https://a4.vnda.com.br/650x/insiderstore/2020/10/03/14_10_7_786_undsundershirtsimples464.jpg?1610661386",
+      "title": "Camiseta B",
+      "price": 29.90
     },
     {
       "id": 3,
-      "title": "Tênis",
-      "price": 500.00
+      "url":"https://hermosocompadre2.vteximg.com.br/arquivos/ids/214332-520-650/T-SHIRT-HENLEY-PRETA-0183-P.jpg?v=637304464134270000 ",
+      "title": "Camisata C",
+      "price": 29.90
     },
     {
       "id": 4,
-      "title": "Camiseta A",
-      "price": 290.90
+      "url":"https://images.asos-media.com/products/asos-design-oversized-t-shirt-with-crew-neck-in-black/12873572-1-black?$XXL$&wid=513&fit=constrain ",
+      "title": "Camisata D",
+      "price": 29.90
     },
     {
       "id": 5,
-      "title": "Camiseta B",
-      "price": 290.90
-    },
-    {
-      "id": 6,
-      "title": "Camisata C",
-      "price": 290.90
-    },
-    {
-      "id": 7,
-      "title": "Camisata D",
-      "price": 290.90
-    },
-    {
-      "id": 8,
+      "url":" https://alexnld.com/wp-content/uploads/2020/05/4f23a6ba-d1f9-4151-be19-ba3e2c64c683-500x500.jpg",
       "title": "Camisata E",
-      "price": 290.90
+      "price": 29.90
     }
   ],
   "stock": [
@@ -61,18 +50,6 @@
     },
     {
       "id": 5,
-      "quantity": 5
-    },
-    {
-      "id": 6,
-      "quantity": 5
-    },
-    {
-      "id": 7,
-      "quantity": 5
-    },
-    {
-      "id": 8,
       "quantity": 5
     }
   ]

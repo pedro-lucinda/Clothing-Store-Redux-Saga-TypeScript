@@ -19,11 +19,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
 
   return (
     <CItem>
-      <img
-        src="https://source.unsplash.com/1600x900/?men,tshirt"
-        alt="Product Image"
-      />
-      <strong> {product.title} </strong> - <span> {product.price} </span>
+      <img src={product.url} alt="Product Image" />
+      <h3> {product.title} </h3> - <p> {product.price} </p>
       <button
         type="button"
         onClick={() => dispatch(addProductToCartRequest(product))}
@@ -32,9 +29,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
       </button>
       <br />
       <br />
-      {hasFailedStockCheck && (
-        <span style={{ color: "red" }}> Produto Esgotado </span>
-      )}
+      {hasFailedStockCheck && <span> Produto Esgotado </span>}
     </CItem>
   );
 };
