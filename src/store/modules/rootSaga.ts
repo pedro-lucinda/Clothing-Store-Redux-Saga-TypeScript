@@ -8,7 +8,3 @@ export default function* rootSaga(){
 	])
 }
 
-
-// function *  = async (){
-// 	return yield = await
-// }

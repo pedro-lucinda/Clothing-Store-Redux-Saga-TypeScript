@@ -1,7 +1,6 @@
 import { Reducer } from 'redux'
 import produce from 'immer'
 import {ActionTypes, ICartState} from './types'
-// immer => produz novo estado a partir de um estado anterior
 
 const INITIAL_STATE : ICartState = {
 	items: [],
@@ -9,8 +8,7 @@ const INITIAL_STATE : ICartState = {
 }
 
 export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) =>{
-//immer
-// draft e o estado antigo entao podemos manipular normalmente
+
 	return	produce(state, draft => {
 		switch (action.type) {
 			case ActionTypes.addProductToCartSuccess: {
@@ -43,10 +41,3 @@ export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) =>{
 }
 
 
-
-
-/* PARA NAO REPETIR TANTO O STATE COMO ALI EM BAIXO - UTILIZA A LIB IMMET */
-
-// 			return {...state, items: [
-// 				...state.items, { 
-// 					product, quantity: 1,
