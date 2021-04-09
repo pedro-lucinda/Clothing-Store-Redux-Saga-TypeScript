@@ -1,7 +1,7 @@
 # Redux + Redux-Saga - Clothing Store
 
 ### To get started
-- Clone de repository
+- Clone the repository
 - yarn install
 - yarn server
 - yarn start
